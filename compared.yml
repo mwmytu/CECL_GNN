@@ -1,0 +1,39 @@
+dir: ml-1m
+datasets:
+  hyper:
+#  yelp:
+#    val_interval:
+#      timestamp: "[1356969600,1404144000)"
+#    models:
+#      - BPR
+#      - FISM
+#      - NGCF
+#      # 这是我的模型
+#      - NCL:
+#          class_weight: 0.01
+#          proto_reg: 1e-6
+#      # 这个才是NCL
+#      - EASE:
+#          num_clusters: 100
+#      #      - CGCN也是
+#      - DGCF
+#      - LightGCN
+#      - SGL
+#      - NeuMF
+  ml-1m:
+    models:
+      - BPR
+      - FISM
+      - NGCF
+      # 这是我的模型
+#      - NCL:
+#          class_weight: 0.01
+#          proto_reg: 1e-6
+      # 这个才是NCL
+      - EASE
+      - DGCF
+      - LightGCN
+      - SGL
+      - NeuMF
+
+

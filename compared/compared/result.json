@@ -1,0 +1,164 @@
+{
+  "yelp": {
+    "NeuMF": {
+      "best_valid_score": 0.0669,
+      "valid_score_bigger": true,
+      "best_valid_result": {
+        "recall@10": 0.0975,
+        "recall@20": 0.1529,
+        "recall@50": 0.2895,
+        "ndcg@10": 0.0669,
+        "ndcg@20": 0.084,
+        "ndcg@50": 0.1172
+      },
+      "test_result": {
+        "recall@10": 0.1041,
+        "recall@20": 0.1633,
+        "recall@50": 0.2971,
+        "ndcg@10": 0.0713,
+        "ndcg@20": 0.0897,
+        "ndcg@50": 0.1228
+      }
+    },
+    "BPR": {
+      "best_valid_score": 0.0314,
+      "valid_score_bigger": true,
+      "best_valid_result": {
+        "recall@10": 0.0498,
+        "recall@20": 0.083,
+        "recall@50": 0.1688,
+        "ndcg@10": 0.0314,
+        "ndcg@20": 0.0419,
+        "ndcg@50": 0.0633
+      },
+      "test_result": {
+        "recall@10": 0.0579,
+        "recall@20": 0.0957,
+        "recall@50": 0.1779,
+        "ndcg@10": 0.0369,
+        "ndcg@20": 0.0487,
+        "ndcg@50": 0.0698
+      }
+    },
+    "FISM": {
+      "best_valid_score": 0.0199,
+      "valid_score_bigger": true,
+      "best_valid_result": {
+        "recall@10": 0.0346,
+        "recall@20": 0.0605,
+        "recall@50": 0.1196,
+        "ndcg@10": 0.0199,
+        "ndcg@20": 0.0279,
+        "ndcg@50": 0.0428
+      },
+      "test_result": {
+        "recall@10": 0.0311,
+        "recall@20": 0.0529,
+        "recall@50": 0.1257,
+        "ndcg@10": 0.0186,
+        "ndcg@20": 0.0258,
+        "ndcg@50": 0.0439
+      }
+    },
+    "NGCF": {
+      "best_valid_score": 0.0359,
+      "valid_score_bigger": true,
+      "best_valid_result": {
+        "recall@10": 0.0528,
+        "recall@20": 0.0915,
+        "recall@50": 0.1831,
+        "ndcg@10": 0.0359,
+        "ndcg@20": 0.0478,
+        "ndcg@50": 0.0707
+      },
+      "test_result": {
+        "recall@10": 0.0451,
+        "recall@20": 0.0819,
+        "recall@50": 0.1881,
+        "ndcg@10": 0.0283,
+        "ndcg@20": 0.0401,
+        "ndcg@50": 0.0662
+      }
+    },
+    "DGCF": {
+      "best_valid_score": 0.0614,
+      "valid_score_bigger": true,
+      "best_valid_result": {
+        "recall@10": 0.0973,
+        "recall@20": 0.1516,
+        "recall@50": 0.2703,
+        "ndcg@10": 0.0614,
+        "ndcg@20": 0.0784,
+        "ndcg@50": 0.108
+      },
+      "test_result": {
+        "recall@10": 0.0914,
+        "recall@20": 0.1554,
+        "recall@50": 0.2967,
+        "ndcg@10": 0.0591,
+        "ndcg@20": 0.0793,
+        "ndcg@50": 0.1143
+      }
+    },
+    "LightGCN": {
+      "best_valid_score": 0.035,
+      "valid_score_bigger": true,
+      "best_valid_result": {
+        "recall@10": 0.0534,
+        "recall@20": 0.0862,
+        "recall@50": 0.1746,
+        "ndcg@10": 0.035,
+        "ndcg@20": 0.0453,
+        "ndcg@50": 0.0672
+      },
+      "test_result": {
+        "recall@10": 0.0465,
+        "recall@20": 0.0822,
+        "recall@50": 0.171,
+        "ndcg@10": 0.0272,
+        "ndcg@20": 0.0387,
+        "ndcg@50": 0.0608
+      }
+    },
+    "SGL": {
+      "best_valid_score": 0.0549,
+      "valid_score_bigger": true,
+      "best_valid_result": {
+        "recall@10": 0.0853,
+        "recall@20": 0.136,
+        "recall@50": 0.257,
+        "ndcg@10": 0.0549,
+        "ndcg@20": 0.0705,
+        "ndcg@50": 0.1001
+      },
+      "test_result": {
+        "recall@10": 0.1001,
+        "recall@20": 0.1644,
+        "recall@50": 0.2722,
+        "ndcg@10": 0.0631,
+        "ndcg@20": 0.0824,
+        "ndcg@50": 0.1094
+      }
+    },
+    "NCL": {
+      "best_valid_score": 0.0377,
+      "valid_score_bigger": true,
+      "best_valid_result": {
+        "recall@10": 0.0572,
+        "recall@20": 0.0922,
+        "recall@50": 0.1747,
+        "ndcg@10": 0.0377,
+        "ndcg@20": 0.0491,
+        "ndcg@50": 0.0702
+      },
+      "test_result": {
+        "recall@10": 0.0573,
+        "recall@20": 0.0953,
+        "recall@50": 0.1861,
+        "ndcg@10": 0.0376,
+        "ndcg@20": 0.0496,
+        "ndcg@50": 0.0722
+      }
+    }
+  }
+}

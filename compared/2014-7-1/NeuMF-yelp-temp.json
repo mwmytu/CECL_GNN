@@ -1,0 +1,1 @@
+{"best_valid_score": 0.0425, "valid_score_bigger": true, "best_valid_result": {"recall@10": 0.0628, "recall@20": 0.1004, "recall@50": 0.194, "ndcg@10": 0.0425, "ndcg@20": 0.055, "ndcg@50": 0.0784}, "test_result": {"recall@10": 0.0539, "recall@20": 0.1039, "recall@50": 0.2018, "ndcg@10": 0.032, "ndcg@20": 0.0478, "ndcg@50": 0.0724}}

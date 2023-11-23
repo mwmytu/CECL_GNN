@@ -1,0 +1,53 @@
+## Graph Collaborative Filtering BackBone
+#embedding_size: 64              # (int) The embedding size of users and items.
+#n_layers: 3                     # (int) The number of GNN layers.
+#reg_weight: 1e-4                # (float) The L2 regularization weight.
+#
+## Contrastive Learning with Structural Neighbors
+#ssl_temp: 0.1                   # (float) Temperature for contrastive loss.
+#ssl_reg: 1e-7                   # (float) The structure-contrastive loss weight.
+#hyper_layers: 1                 # (int) Control the contrasted range for structural-contrastive loss.
+#alpha: 1.0                      # (float) The weight to balance self-supervised loss for users and items.
+#
+## Contrastive Learning with Semantic Neighbors
+#proto_reg: 8e-8                 # (float) The prototype-contrastive weight.
+#num_clusters: 1000              # (int) Number of prototypes.
+#m_step: 1                       # (int) Number of M-steps for each E-step.
+#warm_up_step: 20                # (int) Number of warm up steps.
+
+ssl_temp: 0.1
+ssl_reg: 1e-5
+hyper_layers: 1
+
+alpha: 1
+
+proto_reg: 1
+num_clusters: 1000
+m_step: 1
+m_first: 1
+warm_up_step: 40
+
+type0: 'RW'
+type1: 'ED'
+# (str) The type to generate views. Range in ['ED', 'ND', 'RW'].
+n_layers: 3                     # (int) The number of layers in SGL.
+ssl_tau: 0.5                    # (float) The temperature in softmax.
+reg_weight: 1e-5                # (float) The L2 regularization weight.
+ssl_weight: 0.01               # (float) The hyperparameter to control the strengths of SSL.
+drop_ratio: 0.1                 # (float) The dropout ratio.
+embedding_size: 64              # (int) The embedding size of users and items.
+graph_count: 2
+
+eval_setting:
+  split:
+    RS: [0.8, 0.1, 0.1]
+  order: RO
+  group_by: user
+  mode: full
+
+train_batch_size: 4096
+eval_batch_size: 4096000
+valid_metric: NDCG@10
+metrics: ["Recall", "NDCG"]
+topk: [10, 20, 50]
+class_weight: 0.05

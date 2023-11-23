@@ -1,0 +1,18 @@
+load_col:
+  inter: [user_id, item_id, rating, timestamp]
+ITEM_ID_FIELD: item_id
+RATING_FIELD: rating
+
+user_inter_num_interval: "[15,inf)"
+item_inter_num_interval: "[15,inf)"
+val_interval:
+#  timestamp: "[1356969600, 1451577600)"
+  timestamp: "[1356969600, 1404144000)"
+  rating: "[3,inf)"
+reg_weight: 1e-4
+ssl_temp: 0.05
+ssl_reg: 1e-6
+alpha: 1.5
+proto_reg: 1e-6
+class_weight: 0.01
+num_clusters: 2000

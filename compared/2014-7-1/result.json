@@ -1,0 +1,184 @@
+{
+  "yelp": {
+    "BPR": {
+      "best_valid_score": 0.0976,
+      "valid_score_bigger": true,
+      "best_valid_result": {
+        "recall@10": 0.1396,
+        "recall@20": 0.196,
+        "recall@50": 0.3128,
+        "ndcg@10": 0.0976,
+        "ndcg@20": 0.1156,
+        "ndcg@50": 0.1454
+      },
+      "test_result": {
+        "recall@10": 0.1229,
+        "recall@20": 0.1863,
+        "recall@50": 0.2895,
+        "ndcg@10": 0.0862,
+        "ndcg@20": 0.1055,
+        "ndcg@50": 0.1312
+      }
+    },
+    "FISM": {
+      "best_valid_score": 0.0371,
+      "valid_score_bigger": true,
+      "best_valid_result": {
+        "recall@10": 0.0624,
+        "recall@20": 0.1051,
+        "recall@50": 0.1909,
+        "ndcg@10": 0.0371,
+        "ndcg@20": 0.0511,
+        "ndcg@50": 0.0726
+      },
+      "test_result": {
+        "recall@10": 0.0638,
+        "recall@20": 0.0979,
+        "recall@50": 0.2029,
+        "ndcg@10": 0.039,
+        "ndcg@20": 0.0499,
+        "ndcg@50": 0.0763
+      }
+    },
+    "NGCF": {
+      "best_valid_score": 0.0749,
+      "valid_score_bigger": true,
+      "best_valid_result": {
+        "recall@10": 0.1179,
+        "recall@20": 0.1725,
+        "recall@50": 0.2996,
+        "ndcg@10": 0.0749,
+        "ndcg@20": 0.0916,
+        "ndcg@50": 0.1238
+      },
+      "test_result": {
+        "recall@10": 0.1026,
+        "recall@20": 0.1695,
+        "recall@50": 0.3028,
+        "ndcg@10": 0.0575,
+        "ndcg@20": 0.0781,
+        "ndcg@50": 0.111
+      }
+    },
+    "NCL": {
+      "best_valid_score": 0.0552,
+      "valid_score_bigger": true,
+      "best_valid_result": {
+        "recall@10": 0.0843,
+        "recall@20": 0.1385,
+        "recall@50": 0.2514,
+        "ndcg@10": 0.0552,
+        "ndcg@20": 0.0721,
+        "ndcg@50": 0.0994
+      },
+      "test_result": {
+        "recall@10": 0.0886,
+        "recall@20": 0.137,
+        "recall@50": 0.2487,
+        "ndcg@10": 0.053,
+        "ndcg@20": 0.0685,
+        "ndcg@50": 0.096
+      }
+    },
+    "EASE": {
+      "best_valid_score": 0.0175,
+      "valid_score_bigger": true,
+      "best_valid_result": {
+        "recall@10": 0.0294,
+        "recall@20": 0.0519,
+        "recall@50": 0.0945,
+        "ndcg@10": 0.0175,
+        "ndcg@20": 0.0245,
+        "ndcg@50": 0.0349
+      },
+      "test_result": {
+        "recall@10": 0.0208,
+        "recall@20": 0.0347,
+        "recall@50": 0.0806,
+        "ndcg@10": 0.0118,
+        "ndcg@20": 0.0162,
+        "ndcg@50": 0.0276
+      }
+    },
+    "DGCF": {
+      "best_valid_score": 0.0754,
+      "valid_score_bigger": true,
+      "best_valid_result": {
+        "recall@10": 0.1115,
+        "recall@20": 0.165,
+        "recall@50": 0.2751,
+        "ndcg@10": 0.0754,
+        "ndcg@20": 0.0922,
+        "ndcg@50": 0.1207
+      },
+      "test_result": {
+        "recall@10": 0.0999,
+        "recall@20": 0.1595,
+        "recall@50": 0.2743,
+        "ndcg@10": 0.0682,
+        "ndcg@20": 0.0869,
+        "ndcg@50": 0.1159
+      }
+    },
+    "LightGCN": {
+      "best_valid_score": 0.065,
+      "valid_score_bigger": true,
+      "best_valid_result": {
+        "recall@10": 0.0984,
+        "recall@20": 0.1475,
+        "recall@50": 0.2843,
+        "ndcg@10": 0.065,
+        "ndcg@20": 0.0805,
+        "ndcg@50": 0.1148
+      },
+      "test_result": {
+        "recall@10": 0.0963,
+        "recall@20": 0.1482,
+        "recall@50": 0.2677,
+        "ndcg@10": 0.0584,
+        "ndcg@20": 0.0743,
+        "ndcg@50": 0.1044
+      }
+    },
+    "SGL": {
+      "best_valid_score": 0.0918,
+      "valid_score_bigger": true,
+      "best_valid_result": {
+        "recall@10": 0.1341,
+        "recall@20": 0.1963,
+        "recall@50": 0.3205,
+        "ndcg@10": 0.0918,
+        "ndcg@20": 0.1108,
+        "ndcg@50": 0.1423
+      },
+      "test_result": {
+        "recall@10": 0.1094,
+        "recall@20": 0.1741,
+        "recall@50": 0.3026,
+        "ndcg@10": 0.0754,
+        "ndcg@20": 0.0944,
+        "ndcg@50": 0.1259
+      }
+    },
+    "NeuMF": {
+      "best_valid_score": 0.0425,
+      "valid_score_bigger": true,
+      "best_valid_result": {
+        "recall@10": 0.0628,
+        "recall@20": 0.1004,
+        "recall@50": 0.194,
+        "ndcg@10": 0.0425,
+        "ndcg@20": 0.055,
+        "ndcg@50": 0.0784
+      },
+      "test_result": {
+        "recall@10": 0.0539,
+        "recall@20": 0.1039,
+        "recall@50": 0.2018,
+        "ndcg@10": 0.032,
+        "ndcg@20": 0.0478,
+        "ndcg@50": 0.0724
+      }
+    }
+  }
+}

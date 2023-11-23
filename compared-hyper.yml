@@ -1,0 +1,11 @@
+dir: ml-1m
+datasets:
+  yelp:
+    models:
+      - NCL:
+          hyper:
+            - hyper-fix-cluster.test
+            - hyper-fix-cw.test
+            - hyper-fix-pr.test
+
+

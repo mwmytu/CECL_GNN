@@ -1,0 +1,18 @@
+embedding_size: 64              # (int) The embedding size of users and items.
+n_layers: 2                     # (int) The number of layers in LightGCN.
+reg_weight: 1e-4                # (float) The L2 regularization weight.
+
+# Contrastive Learning with Structural Neighbors
+ssl_temp: 0.1                   # (float) Temperature for contrastive loss.
+ssl_reg: 1e-7                   # (float) The structure-contrastive loss weight.
+hyper_layers: 1                 # (int) Control the contrasted range for structural-contrastive loss.
+alpha: 1.0                      # (float) The weight to balance self-supervised loss for users and items.
+
+# Contrastive Learning with Semantic Neighbors
+proto_reg: 0.008
+
+train_batch_size: 4096
+eval_batch_size: 4096000
+valid_metric: NDCG@10
+metrics: ["Recall", "NDCG"]
+topk: [10, 20, 50]
